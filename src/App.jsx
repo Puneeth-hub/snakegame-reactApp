@@ -104,6 +104,7 @@ const SnakeGame = () => {
 
   return (
     <div className='mid-gamer'>
+      <h1>Snake Game</h1>
     <div className='game-container'>
       {gameOver && <div className="game-over">Game Over</div>}
       <div className="grid">{grid}</div>
